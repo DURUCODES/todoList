@@ -255,16 +255,16 @@ display: none;
 
 @media (max-width: 600px) {
     body {
-        width: 400px;
+        width: 375px;
         display: flex;
         align-items: center;
         flex-direction: column;
        
     }
     .container{
-        width: 400px;
+        width: 350px;
         margin:100px ;
-        margin-left: 200px;
+        margin-left: 150px;
     }
     .heading{
         display: flex;
