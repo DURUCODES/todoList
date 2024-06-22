@@ -240,7 +240,7 @@ display: none;
 }
 
 .radiosection:checked {
-    background: linear-gradient( to  bottom,  hsl(192, 100%, 67%),hsl(280, 87%, 65%)); /* Gradient colors for checked state */
+    background: linear-gradient( to  bottom,  hsl(192, 100%, 67%),hsl(280, 87%, 65%)); 
 }
 
 
@@ -264,12 +264,11 @@ display: none;
     .container{
         width: 375px;
         margin:100px 0px 0px ;
-        margin-left: 150px;
     }
     .heading{
         display: flex;
         justify-content: space-between;
-        width:350px;
+        width:375px;
     }
 
     .checkicon{
@@ -287,7 +286,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 background-color: white;
 min-width: 375px;
 outline: none;
-margin-left:-20px
+
      
 }
 }
