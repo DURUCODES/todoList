@@ -269,6 +269,7 @@ display: none;
     .heading{
         display: flex;
         justify-content: space-between;
+        width:400px;
     }
 
     .checkicon{
