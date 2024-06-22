@@ -290,7 +290,7 @@ outline: none;
 }
     .input-wrapper{
  display: flex;
- min-width: 450px
+ width: 375px
  padding: 0px;
  align-items: center;
  background-color: white;
