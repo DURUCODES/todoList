@@ -290,9 +290,8 @@ outline: none;
 }
     .input-wrapper{
  display: flex;
- width: 375px
+ width: 400px
  padding: 0px;
-margin-left:20px
  align-items: center;
  background-color: white;
  border-radius: 5px;
