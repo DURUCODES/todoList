@@ -298,7 +298,7 @@ outline: none;
  margin-top: 40px;
 }
     .inputelement{
-    width: 375px;
+    width: 350px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -308,6 +308,6 @@ outline: none;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-left: 10px;
+    
 }
 }
