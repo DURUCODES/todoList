@@ -275,7 +275,7 @@ display: none;
     .checkicon{
         position: absolute;
         display: none;
-        left: 3.5%;
+        left: 5.5%;
         margin-top: 3px;
        width: 15px;
        cursor: pointer;
@@ -299,7 +299,7 @@ margin-left:20px
  margin-top: 40px;
 }
     .inputelement{
-    width: 375px;
+    width: 350px;
     height: 40px;
     border-radius: 5px;
     border: none;
