@@ -263,7 +263,7 @@ display: none;
     }
     .container{
         width: 375px;
-        margin:100px 0px 0px ;
+        margin:100px auto 0px ;
     }
     .heading{
         display: flex;
@@ -274,7 +274,7 @@ display: none;
     .checkicon{
         position: absolute;
         display: none;
-        left: 15.5%;
+        left: 13.5%;
         margin-top: 3px;
        width: 15px;
        cursor: pointer;
