@@ -312,3 +312,32 @@ height:40px
     
 }
 }
+@media (min-width:1500px) {
+    body{
+        background-image: url(./images/bg-desktop-light.jpg);
+        background-repeat: no-repeat;
+        background-position:  top center;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color:white;
+        font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+    .container{
+        width: 400px;
+        margin: 100px auto;
+       
+    }
+
+    .checkicon{
+        position: absolute;
+        display: none;
+        left: 42.7%;
+        margin-top: 3px;
+       width: 15px;
+       cursor: pointer;
+     }
+}
