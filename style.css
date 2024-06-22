@@ -1,0 +1,283 @@
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(./style-guide.md);
+}
+
+*{
+ padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/bg-desktop-light.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color:white;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.container{
+    width: 400px;
+    margin:100px auto;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 6px;
+    color: white;
+}
+.mode{
+    cursor: pointer;
+}
+hr{
+    border: none;
+    border-top: 0.3px solid grey;
+}
+.modedark{
+    display: none;
+    cursor: pointer;
+}
+#lightmode{
+    display: block;
+}
+.input-wrapper{
+ display: flex;
+ width: 100%;
+ padding: 8px;
+ align-items: center;
+ background-color: white;
+ border-radius: 5px;
+ margin-top: 40px;
+}
+
+.radio-area input{
+    width: 20px;
+    height: 20px;
+    border: none;
+    accent-color: white;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background: white;
+    border-radius: 50px;
+    border: 1px solid grey;
+    box-shadow: 0 0 0 0.3px  grey;
+}
+.inputelement{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    border: none;
+    outline: none;
+    max-width: calc(100% - 50px); /* Adjust the width as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.inputelement::placeholder{
+    padding: 20px;
+    font-weight: 400;
+}
+section{
+margin-top: 40px;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: white;
+min-width: 400px;
+outline: none;
+
+
+}
+
+.context{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputwrapper{
+    display: flex;
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bottom div{
+    border: none;
+    padding: 5px;
+    
+}
+ ul {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+ul li {
+    margin: 0px 5px;
+    color:hsl(236, 9%, 61%);
+}
+
+ul li:hover{
+color:  hsl(220, 98%, 61%);
+}
+.time{
+    color: hsl(236, 9%, 61%);
+    font-size: 8px;
+}
+
+.clear{
+    font-size: 12px;
+    cursor: pointer;
+    color: hsl(236, 9%, 61%);
+}
+.clear:hover{
+    color:  hsl(220, 98%, 61%);
+}
+.clearing-wrapper{
+    width: 100%;
+}
+.instruction{
+    text-align: center;
+    margin-top: 30px;
+    color:  hsl(235, 19%, 35%);
+    font-size: 12px;
+}
+
+
+.wrapper .checkinginp{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid hsl(280, 87%, 65%);
+    accent-color: hsl(280, 87%, 65%);
+    cursor: pointer;
+    display: none;
+}
+.wrapper{
+    position: relative;
+}
+.check{
+position: absolute;
+left: 5.5px;
+padding: 8px;
+display: none;
+
+}
+.todos{
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: black;
+    outline: none;
+    width: 250px;
+    flex-grow: 3;
+   text-transform: capitalize;
+   margin-left: 20px;
+}
+.todos.completed{
+    text-decoration: line-through;
+    font-family: 100;
+}
+
+.context {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure items are centered vertically */
+    padding: 10px; /* Add some padding for better spacing */
+}
+     
+
+
+
+.delete-wrapper button {
+    border: none; /* Remove default button border */
+    color: white; /* Change button text color */
+    padding: 5px 10px; /* Add padding to the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: transparent;
+    cursor: pointer;
+   
+}
+.radiosection{
+    width: 20px;
+    height: 20px;
+    border: none;
+    accent-color: white;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background: white;
+    border-radius: 50px;
+    border: 1px solid grey;
+    box-shadow: 0 0 0 0.3px  grey;
+
+
+    margin-right: 10px;
+}
+
+.radiosection:hover {
+    border: 1px solid blue;
+}
+
+.radiosection:checked {
+    background: linear-gradient( to  bottom,  hsl(192, 100%, 67%),hsl(280, 87%, 65%)); /* Gradient colors for checked state */
+}
+
+
+.checkicon{
+   position: absolute;
+   display: none;
+   left: 35.3%;
+   margin-top: 3px;
+  width: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    body {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .container{
+        width: 400px;
+        margin:100px ;
+        margin-left: 200px;
+    }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .checkicon{
+        position: absolute;
+        display: none;
+        left: 12.5%;
+        margin-top: 3px;
+       width: 15px;
+       cursor: pointer;
+     }
+     
+}

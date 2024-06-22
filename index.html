@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="heading">
+    <h2 class="title">Todo</h2>
+    <div class="day-andnight">
+      <img src="./images/icon-moon.svg" class="mode" id="lightmode">
+      <img src="./images/icon-sun.svg" class="modedark">
+    </div>
+  </div>
+<div class="input-wrapper">
+  <div class="radio-area">
+    <input type="radio"  class="headinput">
+  </div>
+  <div class="text-area">
+    <input type="text" placeholder="Create a new Todo...." class="inputelement">
+  </div>
+</div>
+
+  <section class="section-class">
+    <div class="todolistcontainer"></div>
+      <div class="context">
+        <div class="inputwrapper">
+          <span class="todos" id="todoo"></span>
+        </div>
+        <div class="delete-wrapper">
+          
+        </div>
+      </div>
+
+
+    <div class="bottom">
+       <div class="timing">
+        <span class="time">10 mins left</span>
+       </div>
+  
+        <ul>
+          <li class="all">All</li>
+          <li class="now">Active</li>
+          <li class="complete">Completed</li>
+        </ul>
+
+      
+        <span class="clear">Clear Completed</span>
+  
+    </div>
+  </section>
+  <p class="instruction">Drag and drop to reorder list</p>
+</div>
+
+
+
+
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">KINGSLEY DURUCHUKWU</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
