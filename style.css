@@ -274,7 +274,7 @@ display: none;
     .checkicon{
         position: absolute;
         display: none;
-        left: 5.5%;
+        left: 15.5%;
         margin-top: 3px;
        width: 15px;
        cursor: pointer;
@@ -284,7 +284,7 @@ margin-top: 40px;
 border-radius: 5px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 background-color: white;
-min-width: 375px;
+width: 375px;
 outline: none;
 
      
