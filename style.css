@@ -298,14 +298,13 @@ outline: none;
  margin-top: 40px;
 }
     .inputelement{
-    width: 350px;
+    width: 375px;
     height: 40px;
     border-radius: 5px;
     border: none;
     position: relative;
     border: none;
     outline: none;
-    max-width: calc(100% - 50px); /* Adjust the width as needed */
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
