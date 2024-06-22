@@ -290,10 +290,12 @@ outline: none;
 }
     .input-wrapper{
  display: flex;
-width: 345px;
+width: 370px;
+  height:30px      
  padding: 0px;
+        
  align-items: center;
- background-color: white;
+ background-color: red;
  border-radius: 5px;
  margin-top: 40px;
 }
