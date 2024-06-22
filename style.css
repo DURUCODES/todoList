@@ -266,7 +266,7 @@ display: none;
     .heading{
         display: flex;
         justify-content: space-between;
-        width:375px;
+        width:100%
         padding:0px 20px
         margin-left:50px
     }
@@ -274,7 +274,7 @@ display: none;
     .checkicon{
         position: absolute;
         display: none;
-        left: 5.5%;
+        left: 3.5%;
         margin-top: 3px;
        width: 15px;
        cursor: pointer;
